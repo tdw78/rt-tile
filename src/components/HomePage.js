@@ -16,7 +16,10 @@ class HomePage extends Component {
     }
     return (
       <div>
-        <div class="jumbotron" style={jumbotron}>
+
+      <div class="row">
+
+        <div class="jumbotron col-lg-12 col-md-12 col-sm-12" style={jumbotron}>
           <img src="images/logo.jpeg" alt="Company logo" />
           
           <p class="lead" style={textFont}>We turn tiling into an art form</p>
@@ -24,6 +27,8 @@ class HomePage extends Component {
           {/* <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> */}
          
         </div>
+      </div>
+
       </div>
    
     );
