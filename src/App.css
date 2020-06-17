@@ -1,7 +1,10 @@
 .App {
   text-align: center;
-  background-color: "#F0EBA6";
+  background-color: "#7C90DB";
 }
 
 
-
+img {
+  border-radius: 50px;
+  
+}
