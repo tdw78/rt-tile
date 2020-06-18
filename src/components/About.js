@@ -4,10 +4,18 @@ class About extends Component {
   render() {
     
     return (
-      <div>
+      <div id="about">
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
         <div class="row">
           <div class="col-lg-2"></div>
-          <p id="about" className="col-lg-8">
+          <p id="aboutText" className="col-lg-8">
             With 21 years of experience under our belts, RT Tile work
             with general contractors and homeowners to artfully 
             execute the best tile work in the business. We 

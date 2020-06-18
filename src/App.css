@@ -1,17 +1,14 @@
 .App {
   text-align: center;
   background-color: #7C90DB;
-  
 }
 
-
-img {
+/* img {
   border-radius: 50px;
-  padding: 22px;
-  
-}
+  padding: 22px;  
+} */
 
-#about {
+#aboutText {
   font-size: 22px;
   font-family: "Georgia";
   color: whitesmoke;
@@ -19,20 +16,22 @@ img {
   font-weight: bold;
 }
 
-.contact {
+.contactText {
   color: whitesmoke;
-  /* background-color: #7C90DB; */
   font-size: 48px;
 }
 
-.gallery {
+.galleryText {
   font-size: 48px;
 }
-
 
 #navbarText {
   font-family: "Georgia";
   font-size: 19px;
   color: "black";
   font-weight: bold;
+}
+
+.navbar > .active {
+  border-bottom: 1px solid #555;
 }

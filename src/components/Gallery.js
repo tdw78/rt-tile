@@ -4,8 +4,16 @@ class Gallery extends Component {
   render() {
     
     return (
-      <div>
-        <p class="gallery">Here are some examples of our work.</p>
+      <div id="gallery">
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <p class="galleryText">Here are some examples of our work.</p>
 
 
       {/* <div class="row">
@@ -15,7 +23,7 @@ class Gallery extends Component {
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        data-target="#carouselExampleIndicators" data-slide-to="2"></li>
           </ol>
 
           

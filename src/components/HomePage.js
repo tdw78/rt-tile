@@ -19,8 +19,15 @@ class HomePage extends Component {
       fontStyle: "italic"
     }
     return (
-      <div>
-
+      <div id="home">
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        
         <div class="row">
 
           <div class="col-lg-12" style={jumbotron}>
@@ -33,15 +40,15 @@ class HomePage extends Component {
          
         </div>
         
-        {/* <div id="contact">
-        <Contact />
+        <div id="contact">
+          <Contact />
         </div>
         <div id="about">
-        <About />
+          <About />
         </div>
         <div id="gallery">
-        <Gallery />
-        </div> */}
+          <Gallery />
+        </div> 
       </div>
 
      </div>
