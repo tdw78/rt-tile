@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  background-color: "#7C90DB";
+  background-color: #7C90DB;
+  
 }
 
 
@@ -10,11 +11,17 @@ img {
   
 }
 
-.about {
-  font-size: 48px;
+#about {
+  font-size: 22px;
+  font-family: "Georgia";
+  color: whitesmoke;
+  text-align: left;
+  font-weight: bold;
 }
 
 .contact {
+  color: whitesmoke;
+  /* background-color: #7C90DB; */
   font-size: 48px;
 }
 
@@ -22,3 +29,10 @@ img {
   font-size: 48px;
 }
 
+
+#navbarText {
+  font-family: "Georgia";
+  font-size: 19px;
+  color: "black";
+  font-weight: bold;
+}
