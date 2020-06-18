@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import Contact from "./Contact";
+import About from "./About";
+import Gallery from "./Gallery";
+
 
 class HomePage extends Component {
   render() {
@@ -24,6 +28,16 @@ class HomePage extends Component {
           {/* <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> */}
          
         </div>
+        
+        {/* <div id="contact">
+        <Contact />
+        </div>
+        <div id="about">
+        <About />
+        </div>
+        <div id="gallery">
+        <Gallery />
+        </div> */}
       </div>
    
     );
