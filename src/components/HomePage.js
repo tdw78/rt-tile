@@ -7,7 +7,9 @@ import Gallery from "./Gallery";
 class HomePage extends Component {
   render() {
     const jumbotron = {
-      backgroundColor: "#7C90DB"
+      // backgroundColor: "#7C90DB"
+      // backgroundColor: "#FFFFF0"
+      backgroundColor: "#F6FFFF"
     }
     const titleFont = {
       fontFamily: "Brush Script MT, Brush Script Std, cursive"
@@ -15,13 +17,22 @@ class HomePage extends Component {
 
     const textFont = {
       fontFamily: "Bookman, URW Bookman L, serif",
-      fontSize: "74px",
-      fontStyle: "italic"
+      fontSize: "48px",
+      fontStyle: "italic",
+      wordSpacing: 2,
+      letterSpacing: 1.4,
+      fontWeight: "bold"
+    }
+
+    const hr = {
+      height: .8,
+      borderWidth: 0,
+      color: "#7C90DB",
+      backgroundColor: "#7C90DB",
+      width: 1000
     }
     return (
       <div id="home">
-        <br></br>
-        <br></br>
         <br></br>
         <br></br>
         <br></br>
@@ -34,12 +45,12 @@ class HomePage extends Component {
             <div class="col-lg-12 col-sm-4 col-xs-4">
               <img src="images/logo.jpeg" class="img-responsive" alt="Company logo" />
             </div>
+            <hr class="my-8" style={hr} />
             <p class="lead" style={textFont}>We turn tiling into an art form</p>
-          <hr class="my-4" />
-          {/* <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> */}
-         
-        </div>
+       </div>
         
+        
+        <container>
         <div id="contact">
           <Contact />
         </div>
@@ -48,7 +59,8 @@ class HomePage extends Component {
         </div>
         <div id="gallery">
           <Gallery />
-        </div> 
+        </div>
+        </container>
       </div>
 
      </div>

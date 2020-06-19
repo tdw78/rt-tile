@@ -13,7 +13,7 @@ class Gallery extends Component {
         <br></br>
         <br></br>
         <br></br>
-        <p class="galleryText">Here are some examples of our work.</p>
+        <p class="galleryText">See our past projects.</p>
 
 
       {/* <div class="row">

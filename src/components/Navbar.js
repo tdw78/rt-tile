@@ -11,17 +11,23 @@ class NavBar extends Component {
 
     const imgStyle = {
       height: 50,
-      width: 100
+      width: 100,
+      borderRadius: 10
     }
     
     const topStyle = {
-      backgroundColor: "#7C90DB"
+      backgroundColor: "#7C90DB",
+      borderBottom: "1px solid #ffffff"
     }
 
     const navStyle = {
       color: "whitesmoke",
       fontSize: 24,
-      fontFamily: "Bookman, URW Bookman L, serif"
+      fontFamily: "Bookman, URW Bookman L, serif",
+      cursor: "pointer",
+      ewResize: 32,
+      paddingRight: 10,
+      paddingLeft: 10
     }
 
 return (
@@ -29,7 +35,12 @@ return (
 
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style={topStyle}>
     <div class="container">
-      <a class="navbar-brand" href="/"><img src="/images/logo.jpeg" alt="logo" style={imgStyle} /></a>
+
+          <Link activeClass= "active" to= "home" spy = {true} smooth={true}
+            offset= {0} duration= {1250} style={navStyle}>
+            <img src="/images/logo.jpeg" alt="logo" style={imgStyle} />
+          </Link>
+
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>

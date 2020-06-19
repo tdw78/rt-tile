@@ -1,24 +1,33 @@
 .App {
   text-align: center;
-  background-color: #7C90DB;
+  /* background-color: #7C90DB; */
+  /* background-color: #FFFFF0; */
+  background-color: #F6FFFF;
+
 }
 
-/* img {
+.img-responsive {
   border-radius: 50px;
-  padding: 22px;  
-} */
+  padding: 22px;
+  height: 275px;
+  filter: invert(.4%);
+  -webkit-filter: invert(.4%);
+}
 
 #aboutText {
   font-size: 22px;
   font-family: "Georgia";
-  color: whitesmoke;
+  /* color: whitesmoke; */
   text-align: left;
   font-weight: bold;
+  letter-spacing: 1;
 }
 
 .contactText {
-  color: whitesmoke;
-  font-size: 48px;
+  /* color: whitesmoke; */
+  font-family: "Georgia";
+  font-size: 44px;
+  text-align: center;
 }
 
 .galleryText {
@@ -32,6 +41,10 @@
   font-weight: bold;
 }
 
-.navbar > .active {
-  border-bottom: 1px solid #555;
+.navbar-nav > :hover {
+  border-bottom: 1.4px solid #ffffff;
+}
+
+Link:hover {
+  font-weight: bold;
 }
