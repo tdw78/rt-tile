@@ -45,21 +45,21 @@ class HomePage extends Component {
             <div class="col-lg-12 col-sm-4 col-xs-4">
               <img src="images/logo.jpeg" class="img-responsive" alt="Company logo" />
             </div>
-            <hr class="my-8" style={hr} />
+            <hr class="my-1" style={hr} />
             <p class="lead" style={textFont}>We turn tiling into an art form</p>
        </div>
         
         
         <container>
-        <div id="contact">
-          <Contact />
-        </div>
-        <div id="about">
-          <About />
-        </div>
-        <div id="gallery">
-          <Gallery />
-        </div>
+          <div id="gallery">
+            <Gallery />
+          </div>
+          <div id="contact">
+            <Contact />
+          </div>
+          <div id="about">
+            <About />
+          </div>
         </container>
       </div>
 

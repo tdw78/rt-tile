@@ -47,7 +47,7 @@ return (
     
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-
+         
           <Link
             activeClass= "active"
             to= "home"
