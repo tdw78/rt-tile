@@ -102,6 +102,3 @@ return (
 export default NavBar;
 
 
- {/* <li class="nav-item">
-          <a class="nav-link" href="/" style={navStyle}>Home</a>
-        </li> */}

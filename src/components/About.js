@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 
+
 class About extends Component {
   render() {
     
     return (
+
       <div id="about">
         <br></br>
         <br></br>
@@ -13,6 +15,7 @@ class About extends Component {
         <br></br>
         <br></br>
         <br></br>
+       
         <div class="row">
           <div class="col-lg-2"></div>
           <p id="aboutText" className="col-lg-8">
@@ -31,7 +34,13 @@ class About extends Component {
           </p>
           <div class="col-lg-2"></div>
         </div>
-      
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
       </div>
    
     );

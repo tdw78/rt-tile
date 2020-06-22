@@ -12,7 +12,7 @@ class Gallery extends Component {
         <br></br>
         <br></br>
         <br></br>
-       
+      
         <p class="galleryText">See our past projects.</p>
   
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
